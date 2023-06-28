@@ -1,0 +1,128 @@
+/* navbar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #1cc43b;
+    border-radius: 25%;
+    position: fixed;
+    padding: 0 20px;
+    left: 0;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+li + li {
+    margin-left: 250px;
+}
+
+
+/* card styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+}
+
+.card {
+    background-color: gold;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px #cccccc59;
+    width: calc(25% - 20px);
+    margin: 10px;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #100f0f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card a {
+    background-color: goldenrod;
+    border: 1.5px solid black;
+    border-radius: 15%;
+    box-shadow: goldenrod 0px 0px 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+a {
+    background-color: goldenrod;
+    border: 1.5px solid black;
+    border-radius: 15%;
+    box-shadow: goldenrod 0px 0px 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+
+
+/* footer styling */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #1cc43b;
+    border-radius: 25%;
+    position: fixed;
+    padding: 0 20px;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+.credits {
+    display: inline-block;
+}
+
+.welcome img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

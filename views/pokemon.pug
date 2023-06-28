@@ -1,0 +1,11 @@
+extends ../public/templates/layout
+
+block cards
+  div.pokemon-container
+    section.pokemon
+        h2= "Name:" + pokemon.Name
+        p= "Nr:" + pokemon.Nr
+        p= "Typ:" + pokemon.Typ
+        p= "Größe:" + pokemon.Größe
+        p= "Beschreibung:" + pokemon.Beschreibung
+        img(src="../public/Bild/${pokemon.Bild}", alt="${pokemon.Name}")

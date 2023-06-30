@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
   res.render('index', { pokemons });
 });
 
-app.get('/pokemon/:Nr', (req, res) => {
+
+app.get('./views/pokemon/:Nr', (req, res) => {
   const Nr = req.params.Nr;
   const pokemon = pokemons.find(p => p.Nr === Nr);
   if (!pokemon) {
